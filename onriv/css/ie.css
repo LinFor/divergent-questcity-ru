@@ -1,0 +1,119 @@
+/* === For IE === */
+
+#admin_menu ul li a:hover {
+background: url('rgba/rgba.php?r=255&g=255&b=255&a=09');
+}
+
+
+#ag_main .shadow_back, .shadow_back {
+background: url('rgba/rgba.php?r=16&g=19&b=33&a=70');
+}
+.edit_window div.input_info div.input label { position:relative; }
+.edit_window div.input_info div.input label span:after {
+content: '';
+margin: 0;
+}
+.edit_window div.input_info div.input label input[type="checkbox"], #ag_main .edit_window div.input_info div.input label input[type="radio"] {
+display:block; 
+margin: 0 0 0 5px;
+position:absolute;
+top:16px;
+right:14px;
+z-index:99;
+}
+
+.edit_window div.input_info div.input div.photo_tools a {background: url('rgba/rgba.php?r=0&g=0&b=0&a=70');}
+
+.edit_window div.input_info div.input label input[type="checkbox"]:checked + span { color:#000; background:#daf0b9; }
+.edit_window div.input_info div.input label input[type="checkbox"]:checked + span:after {content: '';}
+
+.edit_window div.input_info div.input label input[type="radio"]:checked + span { color:#000; background:#daf0b9; }
+.edit_window div.input_info div.input label input[type="radio"]:checked + span:after {content: '';}
+
+#ag_calendar label input[type="checkbox"], #ag_main .hours label input[type="checkbox"] {
+display:block; 
+margin: 0 0 0 5px;
+position:absolute;
+top:14px;
+left:14px;
+z-index:-1;
+}
+#ag_calendar table td div label div.checked {background:#669900; color:#fff;}
+#ag_calendar table td div label div.checked:before {
+position:absolute;
+bottom:14px;
+left:14px;
+padding:0;
+margin:0;
+color:#fff;
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+-webkit-transition: all 0.3s ease-in-out;
+-moz-transition: all 0.3s ease-in-out;
+-o-transition: all 0.3s ease-in-out;
+transition: all 0.3s ease-in-out;
+content: '\e827';
+}
+
+#ag_main .hours div div.checked {background:#669900;}
+#ag_main .hours div div.checked:before {
+position:absolute;
+bottom:14px;
+left:14px;
+padding:0;
+margin:0;
+color:#fff;
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+-webkit-transition: all 0.3s ease-in-out;
+-moz-transition: all 0.3s ease-in-out;
+-o-transition: all 0.3s ease-in-out;
+transition: all 0.3s ease-in-out;
+content: '\e827';
+}
+#ag_main .hours div.disabled {background:#EDEDEF; color:#5A5E70;}
+
+#cboxOverlay {
+background: url('rgba/rgba.php?r=16&g=19&b=33&a=70');
+}
+#cboxPrevious, #cboxNext {
+background:none;
+line-height: 32px!important;
+}
+#cboxPrevious:hover, #cboxNext:hover {
+background: url('rgba/rgba.php?r=255&g=255&b=255&a=30'); line-height: 32px!important;
+}
+.thumbs div.dt_add span {background: url('rgba/rgba.php?r=255&g=255&b=255&a=84'); }
+
+#ag_main .bx-wrapper .bx-controls-direction a {background:none;}
+#ag_main .bx-wrapper .bx-controls-direction a:hover {background: url('rgba/rgba.php?r=255&g=255&b=255&a=30');}
+
+#ag_main .ch_bl label span {display:none;}
+#ag_main .ch_bl label span:after {content: '';}
+#ag_main .ch_bl label input[type="checkbox"], .ch_bl label input[type="radio"] {display:block; float:left;}
+#ag_main .ch_bl label input[type="checkbox"]:checked + span:after, .ch_bl label input[type="radio"]:checked + span:after  {content: '';}
+#tools_bl {background: url('rgba/rgba.php?r=0&g=0&b=0&a=81');}
+
+
+#top_info span.ord_list_link span.actual_check label input[type="checkbox"] {display:block; padding:9px;}
+#top_info span.ord_list_link span.actual_check label input[type="checkbox"]:checked + span:before {content: '';}
+#top_info span.ord_list_link span.actual_check span:before{content: '';}
+
+.settings_block label {padding:0;}
+.settings_block label input[type="checkbox"], .settings_block label input[type="radio"] {display:block; margin:14px 0 0 28px; position:absolute;}
+.settings_block label span {display:none!important;}
+
+#tabs_body div.tab_block {display:none;}
+#tabs_body div.current_tab {display:block;}
+
+#ag_payment_modules div.payment_item label input[type="radio"] {display:block; position:absolute; top:28px; right:18px;}
+#ag_payment_modules div.payment_item label input[type="radio"]:checked + div:before {content: '';}
+
+#open_payment label input[type="checkbox"] {display:block; position:absolute; top:16px; left:18px;}
+#open_payment label div:before {content: '';}

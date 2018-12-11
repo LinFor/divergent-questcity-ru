@@ -1,0 +1,63 @@
+@font-face {
+    font-family: 'Exo 2 Condensed';
+    src: url('exo2-blackcondensed.eot');
+    src: url('exo2-blackcondensed.woff') format('woff'), url('exo2-blackcondensed.woff2') format('woff2'), url('exo2-blackcondensed.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Exo 2 Condensed';
+    src: url('exo2-boldcondensed.eot');
+    src: url('exo2-boldcondensed.woff') format('woff'), url('exo2-boldcondensed.woff2') format('woff2'), url('exo2-boldcondensed.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Exo 2 Condensed';
+    src: url('exo2-extraboldcondensed.eot');
+    src: url('exo2-extraboldcondensed.woff') format('woff'), url('exo2-extraboldcondensed.woff2') format('woff2'), url('exo2-extraboldcondensed.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Exo 2 Condensed';
+    src: url('exo2-extralightcondensed.eot');
+    src: url('exo2-extralightcondensed.woff') format('woff'), url('exo2-extralightcondensed.woff2') format('woff2'), url('exo2-extralightcondensed.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Exo 2 Condensed';
+    src: url('exo2-lightcondensed.eot');
+    src: url('exo2-lightcondensed.woff') format('woff'), url('exo2-lightcondensed.woff2') format('woff2'), url('exo2-lightcondensed.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Exo 2 Condensed';
+    src: url('exo2-mediumcondensed.eot');
+    src: url('exo2-mediumcondensed.woff') format('woff'), url('exo2-mediumcondensed.woff2') format('woff2'), url('exo2-mediumcondensed.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Exo 2 Condensed';
+    src: url('exo2-regularcondensed.eot');
+    src: url('exo2-regularcondensed.woff') format('woff'), url('exo2-regularcondensed.woff2') format('woff2'), url('exo2-regularcondensed.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Exo 2 Condensed';
+    src: url('exo2-semiboldcondensed.eot');
+    src: url('exo2-semiboldcondensed.woff') format('woff'), url('exo2-semiboldcondensed.woff2') format('woff2'), url('exo2-semiboldcondensed.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Exo 2 Condensed';
+    src: url('exo2-thincondensed.eot');
+    src: url('exo2-thincondensed.woff') format('woff'), url('exo2-thincondensed.woff2') format('woff2'), url('exo2-thincondensed.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}

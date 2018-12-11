@@ -1,0 +1,28 @@
+<FilesMatch "booking.dat">
+   Order allow,deny
+   Deny from all
+</FilesMatch>
+<FilesMatch "categories.dat">
+   Order allow,deny
+   Deny from all
+</FilesMatch>
+<FilesMatch "history.dat">
+   Order allow,deny
+   Deny from all
+</FilesMatch>
+<FilesMatch "object.dat">
+   Order allow,deny
+   Deny from all
+</FilesMatch>
+<FilesMatch "staff.dat">
+   Order allow,deny
+   Deny from all
+</FilesMatch>
+<FilesMatch "order.dat">
+   Order allow,deny
+   Deny from all
+</FilesMatch>
+<FilesMatch "config.php">
+   Order allow,deny
+   Deny from all
+</FilesMatch>

@@ -1,0 +1,1 @@
+background: url('http://agwd.ru/css/rgba/rgba.php?r=6&g=55&b=123&a=80');

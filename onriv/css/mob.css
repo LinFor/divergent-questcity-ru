@@ -1,0 +1,135 @@
+#ag_wrapper {width:100%!important; min-width:100%!important; font-size:16px;}
+
+#ag_calendar table td div label div.h_act:hover {background:#D9EDAD;}
+#ag_calendar table td div a, #ag_calendar table td div span, #ag_calendar table td div label div {
+padding:7px 7px 7px 7px; 
+
+}
+
+
+
+#ag_main .busy_day:before, #ag_main .no_work_day:before, #ag_main .lost_busy_day:before, #ag_main .lost_day:before, #ag_calendar table td div a.select_date:before {
+content: '';
+}
+#ag_calendar table td div label div.today:hover {background:#cfe7fe;}
+#ag_calendar label input[type="checkbox"]:checked + div:before {content: '';}
+#ag_calendar table td div label div.checked, #ag_calendar table td div label div.checked:hover {background:#669900;}
+#ag_main .hours label div.time_bl:hover {background:#D9EDAD; color:#000;}
+
+#ag_main .hours label div:before, .hours div:before, a.sel_spots_time:before {content:''!important; }
+#ag_main .hours div {text-align:center;}
+#ag_main .time_data {display:none!important;}
+
+#ag_calendar table td div label div.disabled, #ag_calendar table td div label:hover div.disabled {
+background: #EDEDEF;
+color: #5A5E70;
+}
+
+
+#ag_calendar table td div label div.spots_day {padding: 0 0 0 0;}
+
+#ag_main .time_bl span.ts, #ag_main .lost_time span.ts, #ag_main .busy_time span.ts, #ag_main .disable_time span.ts{float:none; text-align:center;}
+#ag_main .full_photo a.phlk:before, #ag_main .full_photo a.carlk:before {opacity:1;}
+
+#ag_main .full_photo div .carbl {width:100%;}
+
+
+#ag_main #p_info {z-index:99;}
+#ag_main #p_info i {font-size:32px;}
+#ag_main #p_info span.p_ticon {margin:0 0 0 0; font-size:26px;}
+#ag_main #p_info span.p_block {
+margin:0 0 0 0;
+font-size:32px;
+background:#000;
+border-radius: 3px;
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+-khtml-border-radius: 3px;
+}
+
+#ag_main #p_info span.t_curr, #ag_main span.t_curr {margin:0 0 0 0; padding:0; font-weight:bold; font-size:32px!important;}
+#ag_main #p_info span.t_curr i , #ag_main span.t_curr i {margin:0 0 0 0; padding:0; font-weight:normal; font-size:30px;}
+
+#ag_main .discount_str span span.t_curr i, #ag_main .discount_str span span.t_curr {font-size:16px!important;}
+#ag_main .discount_str span {line-height: 30px!important; font-family: Arial, Tahoma!important;}
+
+
+
+
+
+#ag_main #ok_order {
+position:fixed;
+z-index:99999;
+top:0px;
+left:0;
+width:100%;
+height:100%;
+padding: 0;
+margin: 0 0 0 0;
+background:#000;
+background:rgba(0,0,0,0.89);
+color:#fff;
+}
+#ag_main .print_order table {border-collapse: collapse; border-spacing:0;}
+#ag_main .print_order table tr {}
+#ag_main .print_order table th, #ag_main .print_order table td {background:none; padding:7px;}
+#ag_main .print_order h4, #ag_main .print_order table th, #ag_main .print_order table td {color:#fff;}
+#ag_main .print_order table th {color:#D9EDAD;}
+#ag_main .print_order h4 {font-size:20px;}
+
+#ag_main a.exit_order_list_top i{color:#fff;}
+
+#ag_main .shadow_back {/*display:none;*/}
+
+#ag_main .print_order div.bot_order a:hover {
+background:#fff;
+color:#000;
+}
+#ag_main .print_order div.bot_order a:hover i {color:#000;}
+
+
+#ag_main .print_order div.bot_order a.print_go{display:none;}
+
+#ag_main .add_comment div.fade_bl {display:none;}
+
+
+#ag_main .in_spots div.clicker {
+margin-top:-9px;
+z-index:999;
+left:70px!important; 
+width:60px; height:60px; padding:0 0 0 0!important; 
+text-align:center;
+visibility:hidden;
+opacity:0;
+-webkit-transition: all 0.3s ease-in-out;
+-moz-transition: all 0.3s ease-in-out;
+-o-transition: all 0.3s ease-in-out;
+transition: all 0.3s ease-in-out;
+box-shadow: 0 0 7px rgba(0,0,0,0.09);
+border: #fff 1px solid;
+}
+#ag_main .in_spots div.clicker span {
+display:block;
+padding:0;
+margin:0;
+height:30px;
+line-height:30px;
+font-size:14px;	
+outline:none;
+}
+
+#ag_main .done_mess_order span{ background:none; color:#D9EDAD; padding:14px; margin:0px; display:block; border-top:#404D59 1px solid;}
+#ag_main .done_mess_order span.confirm_mail{background:none; color:#FFF7D9; padding:14px; margin:0; display:block; border-top: none;}
+
+#ag_main .done, #ag_main .error, #ag_main .warring, #ag_main .mess {width: auto; margin: 14px 14px 0 14px;}
+
+
+
+#ag_payment_modules div.payment_item img {margin:0 0 0 0; width:auto; height:32px;}
+#ag_payment_modules div.payment_item label div:before { top:11px; right:11px; }
+
+#cboxNext, #cboxPrevious {line-height: 38px!important;}
+#cboxNext:hover, #cboxPrevious:hover, #cboxNext:focus, #cboxPrevious:focus{line-height: 38px!important;}
+
+#ag_payment_modules div#ag_ympt {}
+
