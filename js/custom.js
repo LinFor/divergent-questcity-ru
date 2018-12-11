@@ -39,14 +39,13 @@ function mailchimpCallback(resp) {
 ===  STICKY NAV                 ====
 =================================== */
 
-$(document).ready(function() {
-  $('.main-navigation').onePageNav({
+/* $(document).ready(function() {
+  $('a[href^=#]').onePageNav({
     scrollThreshold: 0.2, // Adjust if Navigation highlights too early or too late
     filter: ':not(.external)',
     changeHash: true
   });
-  
-});
+}); */
 
 
 /* COLLAPSE NAVIGATION ON MOBILE AFTER CLICKING ON LINK - ADDED ON V1.5*/
@@ -93,7 +92,7 @@ if (matchMedia('(min-width: 768px) and (max-width: 991px)').matches) {
 ===  DOWNLOAD BUTTON CLICK SCROLL ==
 =================================== */
 jQuery(function( $ ){
-			$('#download-button').localScroll({
+			$('a[href^=#]').localScroll({
 				duration:1000
 			});
 		});
@@ -101,7 +100,7 @@ jQuery(function( $ ){
 /* =================================
 ===  VIDEO BACKGROUND           ====
 =================================== */
-if (matchMedia('(min-width: 640px)').matches) {
+/* if (matchMedia('(min-width: 640px)').matches) {
    
    $(document).ready(function() {
     var videobackground = new $.backgroundVideo($('body'), {
@@ -114,7 +113,7 @@ if (matchMedia('(min-width: 640px)').matches) {
     });
   });
 
-}
+} */
 
 
  /* =================================
@@ -150,7 +149,7 @@ $(document).ready(function() {
 /* =================================
 ===  SMOOTH SCROLL             ====
 =================================== */
-var scrollAnimationTime = 1200,
+/* var scrollAnimationTime = 1200,
     scrollAnimation = 'easeInOutExpo';
 $('a.scrollto').bind('click.smoothscroll', function (event) {
     event.preventDefault();
@@ -160,7 +159,7 @@ $('a.scrollto').bind('click.smoothscroll', function (event) {
     }, scrollAnimationTime, scrollAnimation, function () {
         window.location.hash = target;
     });
-});
+}); */
 
 
 /* =================================
