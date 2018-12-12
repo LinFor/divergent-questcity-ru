@@ -597,7 +597,7 @@ object {
 
 .screenshots {
     padding-top: 80px;
-    padding-bottom: 120px;
+   /* padding-bottom: 120px;*/
 }
 
 .screenshots .shot {
